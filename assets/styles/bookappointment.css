@@ -1,0 +1,150 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+
+}
+/*Header*/
+.Header{
+    flex:0
+}
+.headerContent{
+    padding: 10px;
+}
+.logo {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    width: 80px;
+}
+.logo2 {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    width: 70px;
+}
+.headerContent h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+
+/*NAVBAR*/
+.navbar{
+    width: 70%;
+    margin-left: auto ;
+    margin-right: auto;
+}
+nav {
+    padding: 10px;
+    height: 80px;
+    font-size: 20px;
+    background: rgba(49, 180, 167, 1);
+
+}
+.navbar-options{
+    padding: 25px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    background: rgba(255, 240, 203, 1);
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 5px;
+}
+
+nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+
+/*veterinary list*/
+.content {
+    flex: 2;
+    display: flex;
+    background: rgba(255, 240, 203, 1);
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.profile{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.appointment{
+    text-align: right;
+    margin-right: auto;
+    margin-left: auto;
+}
+.data{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+button{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    margin: 30px;
+    border: none;
+    padding: 4px;
+    border-radius: 30px;
+    background-color: #08857C;
+    cursor: pointer;
+    color:white;
+    width: 150px;
+
+}
+button a{
+    font-family: 'Chakra Petch', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #08857C;
+    font-size: 30px;
+}
+h2{
+    font-family: "Inria Sans", sans-serif;
+    font-size: 30px ;
+}
+.data h2{
+    font-family: "Inria Sans", sans-serif;
+    font-size: 30px ;
+    background-color: white;
+    border-radius:7%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.pet{
+    height: 200px;
+    border-radius: 100%;
+}
+.local{
+    height: 250px;
+    border-radius: 20%;
+}
