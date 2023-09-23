@@ -1,0 +1,100 @@
+.Header{
+    flex:0
+}
+.headerContent{
+    padding: 10px;
+    background-color: #08857C;
+    height: 70px;
+}
+.headerContent button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.row {
+    float: left;
+    margin-top: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40px;
+}
+.logo2 {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    width: 80px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+.content {
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+
+.centered-button {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.card {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.card input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.centered-button button{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    padding: 4px;
+    border-radius: 30px;
+    background-color: #08857C;
+    cursor: pointer;
+    color:white;
+    width: 150px;
+}
+button a{
+    font-family: 'Chakra Petch', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
