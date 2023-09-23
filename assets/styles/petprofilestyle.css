@@ -1,0 +1,118 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+
+}
+/*Header*/
+.Header{
+    flex:0
+}
+.headerContent{
+    padding: 10px;
+}
+.logo {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    width: 80px;
+}
+.logo2 {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    width: 70px;
+}
+.headerContent h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+
+/*NAVBAR*/
+.navbar{
+    width: 70%;
+    margin-left: auto ;
+    margin-right: auto;
+}
+nav {
+    padding: 10px;
+    height: 80px;
+    font-size: 20px;
+    background: rgba(49, 180, 167, 1);
+
+}
+.navbar-options{
+    padding: 25px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    background: rgba(255, 240, 203, 1);
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 5px;
+}
+
+nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+
+/*PET INFO*/
+.PetProfile{
+    flex: 2;
+    display: flex;
+    background: rgba(255, 240, 203, 1);
+    margin: 20px;
+}
+.cardProfile{
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+.petInfo{
+    display: flex;
+
+}
+
+.attributes{
+    padding: 5px;
+    width: 125px;
+}
+.data{
+    padding: 5px;
+    width: 125px;
+}
+.data h2{
+    font-family: 'Inria Sans', sans-serif;
+    color: #08857C;
+    background: white;
+    border-radius: 10px;
+}
+.attributes h2{
+    font-family: 'Inria Sans', sans-serif;
+    color: #08857C;
+    border-radius: 10px;
+}
+

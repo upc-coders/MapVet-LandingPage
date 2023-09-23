@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/productsstyle.css">
+    <link rel="icon" href="logo2.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>MapVet-Products</title>
+</head>
+<body>
+<section class="Header">
+    <div class="headerContent">
+        <img src="assets/images/logo2.png" alt="Logo" class="logo">
+        <img src="assets/images/petProfile.png" alt="Logo" class="logo2">
+        <h1>Products</h1>
+    </div>
+
+</section>
+<section class="navbar">
+    <nav>
+
+        <ul class="navbar-options">
+            <li><a href="petprofile.html">Profiles</a></li>
+            <li><a href="map.html">MapVet</a></li>
+            <li><a href="newappointment.html">Appointments</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="mainmenu.html">Recommendation</a></li>
+        </ul>
+    </nav>
+</section>
+<section class="content">
+    <div class="mostrador" id="mostrador">
+        <h2 >DOG SUPPLIES</h2>
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="assets/images/products/1.png" alt="">
+
+                </div>
+                <p class="descripcion">RICOCAN</p>
+                <p class="descripcion1">Adult dog food</p>
+                <span class="precio">S/. 90.50</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="assets/images/products/2.png" alt="">
+                </div>
+                <p class="descripcion" id>HARTZ </p>
+                <p class="descripcion1" id>Puppy conditioner</p>
+                <span class="precio">S/. 28.50</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="assets/images/products/3.png" alt="">
+                </div>
+                <p class="descripcion" id>HARTZ </p>
+                <p class="descripcion1">Puppy Shampoo</p>
+                <span class="precio">S/. 30.50</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="assets/images/products/4.png" alt="">
+                </div>
+                <p class="descripcion" id>DENTITOY </p>
+                <p class="descripcion1">Snacks dehydrated</p>
+                <span class="precio">S/. 10.50</span>
+            </div>
+        </div>
+        <h2 >CAT SUPPLIES</h2>
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="assets/images/products/5.png" alt="">
+                </div>
+                <p class="descripcion" id>WHISKAS </p>
+                <p class="descripcion1">Cat food</p>
+                <span class="precio">S/. 90.50</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="assets/images/products/6.png" alt="">
+                </div>
+                <p class="descripcion" id>ADVANTAGE </p>
+                <p class="descripcion1">Flea and lice killer for cats and dogs</p>
+                <span class="precio">S/. 40.50</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="assets/images/products/7.png" alt="">
+                </div>
+                <p class="descripcion" id>PET-CARE </p>
+                <p class="descripcion1">Hypoallergenic shampoo for cats</p>
+                <span class="precio">S/. 40.50</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="assets/images/products/8.png" alt="">
+                </div>
+                <p class="descripcion" id>RICOCAT </p>
+                <p class="descripcion1">Sardine and chicken flavor pate</p>
+                <span class="precio">S/. 10.50</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+    <div class="seleccion" id="seleccion">
+        <div class="cerrar" onclick="cerrar()">
+            &#x2715
+        </div>
+        <div class="info">
+            <img src="assets/images/products/1.png" alt="" id="img">
+            <h2 id="modelo">Quantity</h2>
+            <p id="descripcion">Description of model 1</p>
+
+            <span class="precio" id="precio"></span>
+
+            <div class="fila">
+                <div class="size">
+                    <label for="">Quantity</label>
+                    <select name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                    </select>
+                </div>
+                <button><a href="payment.html">Buy</a></button>
+            </div>
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+        </div>
+    </div>
+
+</section>
+<script src="assets/scripts/productscript.js"></script>
+</body>
+</html>
