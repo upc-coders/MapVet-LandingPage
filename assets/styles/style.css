@@ -1,0 +1,305 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*NAVBAR*/
+.navbar {
+    height: 80px;
+    width: 100%;
+}
+
+nav {
+    padding: 10px;
+    height: 80px;
+    font-size: 20px;
+    background: rgba(49, 180, 167, 1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+    float: right;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+    background: rgba(255, 240, 203, 1);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
+
+.logo {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    width: 70px;
+}
+
+/*Home*/
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.home img {
+    width: 100%;
+    z-index: -1;
+}
+
+.home-slogan {
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    padding: 4% 30%;
+    color: white;
+    font-weight: 800;
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
+}
+
+.home-btn {
+    text-align: center;
+}
+
+.home-btn button {
+    font-size: 18px;
+    background: #08857C;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.home-btn button a {
+    font-family: 'Chakra Petch', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*About us*/
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-us img {
+    width: 100%;
+    max-width: 300px;
+    padding: 40px;
+}
+
+.about-us-description {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about-us-description h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    color: #08857C;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/*PROFILES*/
+.RandR {
+    background: #FFF0CB;
+    padding: 20px;
+}
+
+.RandR-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #08857C;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 45px;
+    flex: 1 1 300px;
+    max-width: 300px;
+}
+
+.card ul {
+    margin-left: 35px;
+    width: 240px;
+}
+
+.card li {
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #08857C;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 35px 0;
+}
+
+.card-subtitle {
+    font-family: 'Inria Sans', sans-serif;
+    color: #08857C;
+}
+
+.card-btn {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card-btn button {
+    color: #08857C;
+    border-radius: 10px;
+    border: 2px solid #08857C;
+    padding: 10px 20px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.card-btn button a {
+    font-family: 'Chakra Petch', sans-serif;
+    text-decoration: none;
+    color: #08857C;
+    font-weight: bold;
+}
+
+/*About the product*/
+.RandP {
+    background: #ffffff;
+    padding: 20px;
+}
+
+.RandP-title {
+    color: #08857C;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+.cardsP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardP {
+    background: #FFF0CB;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 10px;
+    flex: 1 1 400px;
+    max-width: 300px;
+
+}
+
+.cardP ul {
+    margin-left: 35px;
+    width: 240px;
+}
+
+.cardP-header {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardP-title {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 35px 0;
+}
+
+.cardP-subtitle {
+    color: #ffffff;
+}
+
+.cardP-btn {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cardP-btn a {
+    color: #08857C;
+    border-radius: 10px;
+    border: 2px solid #08857C;
+    padding: 10px 20px;
+    background: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    background: #08857C;
+    flex-direction: row;
+    color: #fff;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-part-about {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.footer-part {
+    text-align: left;
+    margin: 0 30px;
+    flex: 1 1 300px;
+    max-width: 300px;
+}
+
+.footer-part div a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+.MapVet {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 30px;
+}
